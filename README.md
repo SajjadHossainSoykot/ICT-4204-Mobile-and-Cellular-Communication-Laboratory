@@ -53,7 +53,7 @@ Run Jupyter:
 jupyter notebook
 ```
 
-Then open a notebook from the `experiments/` directory.
+Then open a notebook from the `notebooks/` directory.
 
 ## Notes
 
