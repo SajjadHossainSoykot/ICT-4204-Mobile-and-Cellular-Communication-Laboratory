@@ -68,9 +68,9 @@ def main():
     plt.figure(figsize=(10, 5))
     plt.plot(MOBILE_POSITIONS_M, rss1, label="RSS from BS1")
     plt.plot(MOBILE_POSITIONS_M, rss2, label="RSS from BS2")
-    plt.axhline(HANDOVER_THRESHOLD_DBM, linestyle="--", label="Handover threshold")
+    plt.axhline(HANDOVER_THRESHOLD_DBM, color="gray", linestyle="--", label="Handover threshold")
     if handover_position_m is not None:
-        plt.axvline(handover_position_m, linestyle="--", label="Handover point")
+        plt.axvline(handover_position_m, color="red", linestyle=":", label="Handover point")
     plt.xlabel("Mobile position (m)")
     plt.ylabel("Received signal strength (dBm)")
     plt.title("RSS-Based Handover Between Two Cells")
