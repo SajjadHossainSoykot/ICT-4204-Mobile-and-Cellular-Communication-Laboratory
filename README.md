@@ -12,6 +12,8 @@ This repository contains nine laboratory experiments for ICT-4204. They are base
 - a **Jupyter notebook** (the main laboratory document), with theory, equations, implementation, graphs, discussion, and viva questions;
 - a **standalone Python script** that runs the same calculations and plots without Jupyter.
 
+> **Combined Laboratory Manual:** All 9 experiments are also available in a single, comprehensive Jupyter Notebook: [**ICT_4204_All_Experiments_Combined.ipynb**](notebooks/ICT_4204_All_Experiments_Combined.ipynb), complete with a clickable Table of Contents for easy navigation.
+
 ## Objectives
 
 - Apply the basic equations of mobile and cellular communication to numerical problems.
@@ -50,6 +52,7 @@ ICT-4204-LabCodes/
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/        # Jupyter notebooks: theory, implementation, results, viva
+│   ├── ICT_4204_All_Experiments_Combined.ipynb  # All 9 experiments combined
 │   ├── EXP01_Doppler_Shift_and_Maximum_Mobile_Velocity.ipynb
 │   ├── ...
 │   └── EXP09_Cellular_Traffic_Channel_Capacity_and_Erlang_B.ipynb
