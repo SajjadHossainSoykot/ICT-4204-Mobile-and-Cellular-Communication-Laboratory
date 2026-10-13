@@ -20,3 +20,5 @@ Thumbs.db
 
 # Generated output from running scripts locally
 *.log
+
+Test/
