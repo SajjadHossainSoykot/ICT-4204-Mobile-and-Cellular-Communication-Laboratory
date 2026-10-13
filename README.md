@@ -12,7 +12,9 @@ This repository contains nine laboratory experiments for ICT-4204. They are base
 - a **Jupyter notebook** (the main laboratory document), with theory, equations, implementation, graphs, discussion, and viva questions;
 - a **standalone Python script** that runs the same calculations and plots without Jupyter.
 
-> **Combined Laboratory Manual:** All 9 experiments are also available in a single, comprehensive Jupyter Notebook: [**ICT_4204_All_Experiments_Combined.ipynb**](notebooks/ICT_4204_All_Experiments_Combined.ipynb), complete with a clickable Table of Contents for easy navigation.
+> **Combined Laboratory Manuals:**
+> - [**All_Experiments_Combined.ipynb**](All_Experiments_Combined.ipynb) (or [`notebooks/All_Experiments_Combined.ipynb`](notebooks/All_Experiments_Combined.ipynb)): Complete laboratory manual compiling all 9 experiments with an interactive Table of Contents.
+> - [**Exp3_8_9_Combined.ipynb**](Exp3_8_9_Combined.ipynb) (or [`notebooks/Exp3_8_9_Combined.ipynb`](notebooks/Exp3_8_9_Combined.ipynb)): Focused combined notebook featuring Experiments 03 (Frequency Allocation), 08 (Cell Splitting), and 09 (Traffic Capacity & Erlang-B).
 
 ## Objectives
 
@@ -51,12 +53,16 @@ ICT-4204-LabCodes/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── notebooks/        # Jupyter notebooks: theory, implementation, results, viva
-│   ├── ICT_4204_All_Experiments_Combined.ipynb  # All 9 experiments combined
+├── All_Experiments_Combined.ipynb       # All 9 experiments combined
+├── Exp3_8_9_Combined.ipynb              # Experiments 03, 08, 09 combined
+├── notebooks/                           # Individual & combined Jupyter notebooks
+│   ├── All_Experiments_Combined.ipynb
+│   ├── Exp3_8_9_Combined.ipynb
 │   ├── EXP01_Doppler_Shift_and_Maximum_Mobile_Velocity.ipynb
 │   ├── ...
 │   └── EXP09_Cellular_Traffic_Channel_Capacity_and_Erlang_B.ipynb
-└── scripts/          # Standalone Python versions of each experiment
+├── matlab/                              # MATLAB scripts and output figures
+└── scripts/                             # Standalone Python versions of each experiment
     ├── EXP01_Doppler_Shift_and_Maximum_Mobile_Velocity.py
     ├── ...
     └── EXP09_Cellular_Traffic_Channel_Capacity_and_Erlang_B.py
